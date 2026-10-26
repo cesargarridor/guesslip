@@ -5,20 +5,52 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Soporte · Guesslip</title>
 <link rel="stylesheet" href="estilo.css">
+<script src="idioma.js" defer></script>
 </head>
 <body>
+<nav class="idioma">
+  <select id="idioma" aria-label="Idioma · Language">
+    <option value="es">Español</option>
+    <option value="en">English</option>
+    <option value="fr">Français</option>
+    <option value="de">Deutsch</option>
+    <option value="it">Italiano</option>
+    <option value="pt">Português</option>
+    <option value="nl">Nederlands</option>
+    <option value="sv">Svenska</option>
+    <option value="da">Dansk</option>
+    <option value="fi">Suomi</option>
+    <option value="pl">Polski</option>
+    <option value="cs">Čeština</option>
+    <option value="sk">Slovenčina</option>
+    <option value="sl">Slovenščina</option>
+    <option value="hr">Hrvatski</option>
+    <option value="hu">Magyar</option>
+    <option value="ro">Română</option>
+    <option value="bg">Български</option>
+    <option value="el">Ελληνικά</option>
+    <option value="et">Eesti</option>
+    <option value="lv">Latviešu</option>
+    <option value="lt">Lietuvių</option>
+    <option value="mt">Malti</option>
+    <option value="zh-Hans">简体中文</option>
+    <option value="hi">हिन्दी</option>
+    <option value="ar">العربية</option>
+    <option value="bn">বাংলা</option>
+  </select>
+</nav>
+<div id="app">
 <header class="hero">
   <a class="logo" href="index.html">Guesslip</a>
   <h1>Soporte</h1>
   <p>¿Algo no va bien? Escríbenos a <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> y te respondemos lo antes posible.</p>
 </header>
-
 <main>
 <section>
   <h2>Preguntas frecuentes</h2>
 
   <h3>¿Cómo se juega?</h3>
-  <p>Dos equipos y un solo móvil. Se eligen hasta 4 mazos y salen 50 papelitos. Por turnos de 60 segundos, un jugador mira el móvil sin que su equipo lo vea y les hace adivinar. Hay tres rondas con las mismas palabras: en la 1.ª se describe libremente, en la 2.ª solo se puede decir una palabra y en la 3.ª solo se hace mímica. Gana el equipo que más acierte en total.</p>
+  <p>Dos equipos y un solo móvil. Se eligen hasta 4 mazos y salen 50 papelitos. Por turnos de 60 segundos, un jugador mira el móvil sin que su equipo lo vea y les hace adivinar. Hay tres rondas con las mismas palabras: en la 1.ª se describe libremente, en la 2.ª solo se puede decir una palabra y en la 3.ª solo se hace mímica. Gana el equipo que más acierte en total; si hay empate, se puede jugar una muerte súbita.</p>
 
   <h3>He comprado "Desbloquear todo" y en mi nuevo móvil no aparece</h3>
   <p>La compra está en tu cuenta de Apple, no en el móvil. Asegúrate de usar la misma cuenta de Apple, entra en la tienda de mazos y pulsa <strong>"Restaurar compra"</strong>. Si aun así no aparece, escríbenos.</p>
@@ -27,7 +59,7 @@
   <p>Cada mazo necesita <strong>2 anuncios vistos enteros</strong>. Si cierras el anuncio antes de que termine, no cuenta. El progreso (1/2) se guarda aunque salgas de la app.</p>
 
   <h3>No me aparecen anuncios para desbloquear</h3>
-  <p>Los anuncios necesitan conexión a internet y a veces no hay ninguno disponible en ese momento. Prueba de nuevo en unos segundos o con otra red. También puedes desbloquear mazos con monedas: cada partida terminada da 25.</p>
+  <p>Los anuncios necesitan conexión a internet y a veces no hay ninguno disponible en ese momento. Prueba de nuevo en unos segundos o con otra red. También puedes desbloquear mazos con monedas: cada partida terminada da 20.</p>
 
   <h3>Se me cerró la app en mitad de una partida</h3>
   <p>Vuelve a abrirla en menos de <strong>5 minutos</strong> y en el inicio verás "Tienes una partida a medias". Pulsa "Continuar partida" y seguirás justo donde estabas, con el turno en pausa. Pasados 5 minutos la partida se pierde.</p>
@@ -48,7 +80,1125 @@
   Cuéntanos qué modelo de iPhone o iPad tienes y qué versión de iOS (<em>Ajustes &gt; General &gt; Información</em>), así lo arreglamos antes.</p>
 </section>
 </main>
-
 <footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Soporte</a> · <a href="privacidad.html">Privacidad</a></footer>
+</div>
+<template lang="en">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Support</h1>
+  <p>Something not working? Write to us at <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> and we'll get back to you as soon as possible.</p>
+</header>
+<main>
+<section>
+  <h2>Frequently asked questions</h2>
+
+  <h3>How do you play?</h3>
+  <p>Two teams and one phone. Pick up to 4 decks and 50 slips are drawn. In 60-second turns, one player looks at the phone without their team seeing it and gets them to guess. There are three rounds with the same words: in round 1 you describe freely, in round 2 you can say only one word, and in round 3 it's charades only. The team with the most correct answers wins; if it's a tie, you can play sudden death.</p>
+
+  <h3>I bought "Unlock everything" and it doesn't show on my new phone</h3>
+  <p>The purchase is on your Apple Account, not on the phone. Make sure you use the same Apple Account, open the deck shop and tap <strong>"Restore purchase"</strong>. If it still doesn't appear, write to us.</p>
+
+  <h3>I watched an ad to unlock a deck and it didn't unlock</h3>
+  <p>Each deck needs <strong>2 ads watched in full</strong>. If you close the ad before it ends, it doesn't count. Progress (1/2) is saved even if you leave the app.</p>
+
+  <h3>No ads appear for unlocking</h3>
+  <p>Ads need an internet connection and sometimes none is available at that moment. Try again in a few seconds or on another network. You can also unlock decks with coins: every finished game gives 20.</p>
+
+  <h3>The app closed in the middle of a game</h3>
+  <p>Open it again within <strong>5 minutes</strong> and you'll see "You have an unfinished game" on the home screen. Tap "Continue game" and you'll pick up right where you were, with the turn paused. After 5 minutes the game is lost.</p>
+
+  <h3>How do I change my personalised ad preferences?</h3>
+  <p>In the deck shop, tap <strong>"Ad privacy"</strong>. You can change the tracking permission in <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em>.</p>
+
+  <h3>Can I get a refund?</h3>
+  <p>App Store refunds are handled by Apple. You can request one at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>I found a repeated word, a typo or a word that doesn't fit</h3>
+  <p>Thank you! Write to us with the word and the deck and we'll fix it in the next version.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Tell us your iPhone or iPad model and iOS version (<em>Settings &gt; General &gt; About</em>) so we can fix it faster.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Support</a> · <a href="privacidad.html">Privacy</a></footer>
+</template>
+<template lang="fr">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Assistance</h1>
+  <p>Un problème ? Écrivez-nous à <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> et nous vous répondrons dès que possible.</p>
+</header>
+<main>
+<section>
+  <h2>Questions fréquentes</h2>
+
+  <h3>Comment joue-t-on ?</h3>
+  <p>Deux équipes et un seul téléphone. On choisit jusqu'à 4 paquets et 50 papiers sont tirés. Par tours de 60 secondes, un joueur regarde le téléphone sans que son équipe le voie et la fait deviner. Il y a trois manches avec les mêmes mots : dans la 1re on décrit librement, dans la 2e on ne peut dire qu'un seul mot et dans la 3e on ne fait que du mime. L'équipe qui trouve le plus de mots gagne ; en cas d'égalité, on peut jouer une mort subite.</p>
+
+  <h3>J'ai acheté « Tout débloquer » et rien n'apparaît sur mon nouveau téléphone</h3>
+  <p>L'achat est lié à votre compte Apple, pas au téléphone. Vérifiez que vous utilisez le même compte Apple, ouvrez la boutique de paquets et touchez <strong>« Restaurer l'achat »</strong>. Si rien n'apparaît encore, écrivez-nous.</p>
+
+  <h3>J'ai regardé une publicité pour débloquer un paquet et il ne s'est pas débloqué</h3>
+  <p>Chaque paquet nécessite <strong>2 publicités regardées en entier</strong>. Si vous fermez la publicité avant la fin, elle ne compte pas. La progression (1/2) est enregistrée même si vous quittez l'app.</p>
+
+  <h3>Aucune publicité n'apparaît pour débloquer</h3>
+  <p>Les publicités nécessitent une connexion internet et parfois aucune n'est disponible à ce moment-là. Réessayez dans quelques secondes ou sur un autre réseau. Vous pouvez aussi débloquer des paquets avec des pièces : chaque partie terminée en rapporte 20.</p>
+
+  <h3>L'app s'est fermée en pleine partie</h3>
+  <p>Rouvrez-la dans les <strong>5 minutes</strong> et vous verrez « Vous avez une partie en cours » sur l'écran d'accueil. Touchez « Continuer la partie » et vous reprendrez exactement là où vous en étiez, avec le tour en pause. Après 5 minutes, la partie est perdue.</p>
+
+  <h3>Comment modifier mes préférences de publicités personnalisées ?</h3>
+  <p>Dans la boutique de paquets, touchez <strong>« Confidentialité des publicités »</strong>. Vous pouvez modifier l'autorisation de suivi dans <em>Réglages &gt; Confidentialité et sécurité &gt; Suivi</em>.</p>
+
+  <h3>Puis-je demander un remboursement ?</h3>
+  <p>Les remboursements de l'App Store sont gérés par Apple. Vous pouvez en faire la demande sur <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>J'ai trouvé un mot en double, mal écrit ou qui ne convient pas</h3>
+  <p>Merci ! Écrivez-nous avec le mot et le paquet et nous le corrigerons dans la prochaine version.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>E-mail : <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Indiquez-nous votre modèle d'iPhone ou d'iPad et votre version d'iOS (<em>Réglages &gt; Général &gt; Informations</em>) pour que nous puissions corriger plus vite.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Assistance</a> · <a href="privacidad.html">Confidentialité</a></footer>
+</template>
+<template lang="de">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Support</h1>
+  <p>Funktioniert etwas nicht? Schreib uns an <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> und wir antworten so schnell wie möglich.</p>
+</header>
+<main>
+<section>
+  <h2>Häufige Fragen</h2>
+
+  <h3>Wie spielt man?</h3>
+  <p>Zwei Teams und ein Handy. Man wählt bis zu 4 Decks und es werden 50 Zettel gezogen. In Zügen von 60 Sekunden schaut eine Person aufs Handy, ohne dass ihr Team es sieht, und lässt es raten. Es gibt drei Runden mit denselben Wörtern: In Runde 1 wird frei beschrieben, in Runde 2 darf man nur ein Wort sagen und in Runde 3 nur Pantomime machen. Das Team mit den meisten Treffern gewinnt; bei Gleichstand kann man einen Sudden Death spielen.</p>
+
+  <h3>Ich habe „Alles freischalten“ gekauft und auf meinem neuen Handy erscheint es nicht</h3>
+  <p>Der Kauf gehört zu deinem Apple Account, nicht zum Handy. Achte darauf, denselben Apple Account zu verwenden, öffne den Deck-Shop und tippe auf <strong>„Kauf wiederherstellen“</strong>. Wenn es dann immer noch nicht erscheint, schreib uns.</p>
+
+  <h3>Ich habe Werbung zum Freischalten eines Decks gesehen, aber es ist nicht freigeschaltet</h3>
+  <p>Jedes Deck braucht <strong>2 vollständig angesehene Werbespots</strong>. Wenn du die Werbung vor dem Ende schließt, zählt sie nicht. Der Fortschritt (1/2) bleibt gespeichert, auch wenn du die App verlässt.</p>
+
+  <h3>Es erscheint keine Werbung zum Freischalten</h3>
+  <p>Werbung braucht eine Internetverbindung und manchmal ist gerade keine verfügbar. Versuch es in ein paar Sekunden oder mit einem anderen Netz erneut. Du kannst Decks auch mit Münzen freischalten: Jedes beendete Spiel bringt 20.</p>
+
+  <h3>Die App hat sich mitten im Spiel geschlossen</h3>
+  <p>Öffne sie innerhalb von <strong>5 Minuten</strong> wieder; auf dem Startbildschirm siehst du dann „Du hast ein unfertiges Spiel“. Tippe auf „Spiel fortsetzen“ und du machst genau dort weiter, wo du warst – mit pausiertem Zug. Nach 5 Minuten geht das Spiel verloren.</p>
+
+  <h3>Wie ändere ich meine Einstellungen für personalisierte Werbung?</h3>
+  <p>Tippe im Deck-Shop auf <strong>„Werbe-Datenschutz“</strong>. Die Tracking-Erlaubnis änderst du unter <em>Einstellungen &gt; Datenschutz &amp; Sicherheit &gt; Tracking</em>.</p>
+
+  <h3>Kann ich eine Rückerstattung bekommen?</h3>
+  <p>Rückerstattungen im App Store wickelt Apple ab. Du kannst sie unter <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> beantragen.</p>
+
+  <h3>Ich habe ein doppeltes, falsch geschriebenes oder unpassendes Wort gefunden</h3>
+  <p>Danke! Schreib uns das Wort und das Deck und wir korrigieren es in der nächsten Version.</p>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <p>E-Mail: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Nenn uns dein iPhone- oder iPad-Modell und deine iOS-Version (<em>Einstellungen &gt; Allgemein &gt; Info</em>), damit wir es schneller beheben können.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Support</a> · <a href="privacidad.html">Datenschutz</a></footer>
+</template>
+<template lang="it">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Assistenza</h1>
+  <p>Qualcosa non funziona? Scrivici a <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> e ti risponderemo il prima possibile.</p>
+</header>
+<main>
+<section>
+  <h2>Domande frequenti</h2>
+
+  <h3>Come si gioca?</h3>
+  <p>Due squadre e un solo telefono. Si scelgono fino a 4 mazzi e si pescano 50 bigliettini. In turni da 60 secondi, un giocatore guarda il telefono senza che la sua squadra lo veda e la fa indovinare. Ci sono tre round con le stesse parole: nel 1° si descrive liberamente, nel 2° si può dire una sola parola e nel 3° solo mimo. Vince la squadra che indovina di più; in caso di pareggio si può giocare una morte improvvisa.</p>
+
+  <h3>Ho acquistato "Sblocca tutto" e sul nuovo telefono non compare</h3>
+  <p>L'acquisto è legato al tuo Apple Account, non al telefono. Assicurati di usare lo stesso Apple Account, apri il negozio dei mazzi e tocca <strong>"Ripristina acquisto"</strong>. Se ancora non compare, scrivici.</p>
+
+  <h3>Ho guardato una pubblicità per sbloccare un mazzo e non si è sbloccato</h3>
+  <p>Ogni mazzo richiede <strong>2 pubblicità guardate per intero</strong>. Se chiudi la pubblicità prima della fine, non conta. I progressi (1/2) restano salvati anche se esci dall'app.</p>
+
+  <h3>Non compaiono pubblicità per sbloccare</h3>
+  <p>Le pubblicità richiedono una connessione a internet e a volte in quel momento non ce n'è nessuna disponibile. Riprova tra qualche secondo o con un'altra rete. Puoi anche sbloccare i mazzi con le monete: ogni partita finita ne dà 20.</p>
+
+  <h3>L'app si è chiusa a metà partita</h3>
+  <p>Riaprila entro <strong>5 minuti</strong> e nella schermata iniziale vedrai "Hai una partita in sospeso". Tocca "Continua la partita" e riprenderai esattamente da dove eri, con il turno in pausa. Dopo 5 minuti la partita si perde.</p>
+
+  <h3>Come cambio le preferenze sulla pubblicità personalizzata?</h3>
+  <p>Nel negozio dei mazzi tocca <strong>"Privacy della pubblicità"</strong>. L'autorizzazione al tracciamento si cambia in <em>Impostazioni &gt; Privacy e sicurezza &gt; Tracciamento</em>.</p>
+
+  <h3>Posso chiedere un rimborso?</h3>
+  <p>I rimborsi dell'App Store sono gestiti da Apple. Puoi richiederlo su <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Ho trovato una parola ripetuta, scritta male o fuori luogo</h3>
+  <p>Grazie! Scrivici con la parola e il mazzo e la correggeremo nella prossima versione.</p>
+</section>
+
+<section>
+  <h2>Contatti</h2>
+  <p>E-mail: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Indicaci il modello di iPhone o iPad e la versione di iOS (<em>Impostazioni &gt; Generali &gt; Info</em>), così risolviamo prima.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Assistenza</a> · <a href="privacidad.html">Privacy</a></footer>
+</template>
+<template lang="pt">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Suporte</h1>
+  <p>Algo não está a funcionar? Escreve-nos para <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> e respondemos o mais depressa possível.</p>
+</header>
+<main>
+<section>
+  <h2>Perguntas frequentes</h2>
+
+  <h3>Como se joga?</h3>
+  <p>Duas equipas e um só telemóvel. Escolhem-se até 4 baralhos e saem 50 papelinhos. Em turnos de 60 segundos, um jogador olha para o telemóvel sem que a sua equipa veja e fá-la adivinhar. Há três rondas com as mesmas palavras: na 1.ª descreve-se livremente, na 2.ª só se pode dizer uma palavra e na 3.ª só se faz mímica. Ganha a equipa que acertar mais; em caso de empate, pode jogar-se uma morte súbita.</p>
+
+  <h3>Comprei "Desbloquear tudo" e no telemóvel novo não aparece</h3>
+  <p>A compra está na tua conta Apple, não no telemóvel. Confirma que usas a mesma conta Apple, abre a loja de baralhos e toca em <strong>"Restaurar compra"</strong>. Se mesmo assim não aparecer, escreve-nos.</p>
+
+  <h3>Vi um anúncio para desbloquear um baralho e não desbloqueou</h3>
+  <p>Cada baralho precisa de <strong>2 anúncios vistos até ao fim</strong>. Se fechares o anúncio antes de terminar, não conta. O progresso (1/2) fica guardado mesmo que saias da app.</p>
+
+  <h3>Não me aparecem anúncios para desbloquear</h3>
+  <p>Os anúncios precisam de ligação à internet e às vezes não há nenhum disponível nesse momento. Tenta de novo daqui a uns segundos ou noutra rede. Também podes desbloquear baralhos com moedas: cada jogo terminado dá 20.</p>
+
+  <h3>A app fechou a meio de um jogo</h3>
+  <p>Volta a abri-la em menos de <strong>5 minutos</strong> e no início verás "Tens um jogo a meio". Toca em "Continuar jogo" e continuas exatamente onde estavas, com o turno em pausa. Passados 5 minutos, o jogo perde-se.</p>
+
+  <h3>Como mudo as minhas preferências de anúncios personalizados?</h3>
+  <p>Na loja de baralhos, toca em <strong>"Privacidade dos anúncios"</strong>. A autorização de rastreamento muda-se em <em>Definições &gt; Privacidade e segurança &gt; Rastreamento</em>.</p>
+
+  <h3>Posso pedir um reembolso?</h3>
+  <p>Os reembolsos da App Store são geridos pela Apple. Podes pedi-lo em <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Encontrei uma palavra repetida, mal escrita ou que não faz sentido</h3>
+  <p>Obrigado! Escreve-nos com a palavra e o baralho e corrigimos na próxima versão.</p>
+</section>
+
+<section>
+  <h2>Contacto</h2>
+  <p>E-mail: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Diz-nos o modelo do teu iPhone ou iPad e a versão do iOS (<em>Definições &gt; Geral &gt; Informações</em>), assim resolvemos mais depressa.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Suporte</a> · <a href="privacidad.html">Privacidade</a></footer>
+</template>
+<template lang="nl">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Support</h1>
+  <p>Werkt er iets niet? Mail ons op <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> en we antwoorden zo snel mogelijk.</p>
+</header>
+<main>
+<section>
+  <h2>Veelgestelde vragen</h2>
+
+  <h3>Hoe speel je het?</h3>
+  <p>Twee teams en één telefoon. Je kiest tot 4 decks en er worden 50 briefjes getrokken. In beurten van 60 seconden kijkt één speler op de telefoon zonder dat het team meekijkt en laat ze raden. Er zijn drie rondes met dezelfde woorden: in ronde 1 omschrijf je vrij, in ronde 2 mag je maar één woord zeggen en in ronde 3 alleen uitbeelden. Het team met de meeste goede antwoorden wint; bij gelijkspel kun je een sudden death spelen.</p>
+
+  <h3>Ik heb "Alles ontgrendelen" gekocht en op mijn nieuwe telefoon zie ik het niet</h3>
+  <p>De aankoop hoort bij je Apple Account, niet bij de telefoon. Gebruik hetzelfde Apple Account, open de deckwinkel en tik op <strong>"Aankoop herstellen"</strong>. Verschijnt het nog steeds niet, mail ons dan.</p>
+
+  <h3>Ik heb een advertentie bekeken om een deck te ontgrendelen en het is niet ontgrendeld</h3>
+  <p>Elk deck heeft <strong>2 volledig bekeken advertenties</strong> nodig. Als je de advertentie sluit voordat hij klaar is, telt hij niet. De voortgang (1/2) blijft bewaard, ook als je de app verlaat.</p>
+
+  <h3>Er verschijnen geen advertenties om te ontgrendelen</h3>
+  <p>Advertenties hebben een internetverbinding nodig en soms is er even geen beschikbaar. Probeer het over een paar seconden opnieuw of met een ander netwerk. Je kunt decks ook met munten ontgrendelen: elk afgerond spel levert er 20 op.</p>
+
+  <h3>De app is midden in een spel gesloten</h3>
+  <p>Open hem binnen <strong>5 minuten</strong> opnieuw en je ziet op het startscherm "Je hebt een onafgemaakt spel". Tik op "Spel hervatten" en je gaat precies verder waar je was, met de beurt gepauzeerd. Na 5 minuten is het spel verloren.</p>
+
+  <h3>Hoe wijzig ik mijn voorkeuren voor gepersonaliseerde advertenties?</h3>
+  <p>Tik in de deckwinkel op <strong>"Advertentieprivacy"</strong>. De trackingtoestemming wijzig je via <em>Instellingen &gt; Privacy en beveiliging &gt; Tracking</em>.</p>
+
+  <h3>Kan ik mijn geld terugkrijgen?</h3>
+  <p>Terugbetalingen in de App Store worden afgehandeld door Apple. Je kunt ze aanvragen op <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Ik vond een dubbel, verkeerd gespeld of ongepast woord</h3>
+  <p>Bedankt! Mail ons het woord en het deck en we passen het aan in de volgende versie.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>E-mail: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Vermeld je iPhone- of iPad-model en iOS-versie (<em>Instellingen &gt; Algemeen &gt; Info</em>), dan lossen we het sneller op.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Support</a> · <a href="privacidad.html">Privacy</a></footer>
+</template>
+<template lang="sv">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Support</h1>
+  <p>Fungerar något inte? Skriv till oss på <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> så svarar vi så snart vi kan.</p>
+</header>
+<main>
+<section>
+  <h2>Vanliga frågor</h2>
+
+  <h3>Hur spelar man?</h3>
+  <p>Två lag och en mobil. Man väljer upp till 4 kortlekar och 50 lappar dras. I turer på 60 sekunder tittar en spelare på mobilen utan att laget ser och får dem att gissa. Det finns tre rundor med samma ord: i runda 1 beskriver man fritt, i runda 2 får man bara säga ett ord och i runda 3 blir det bara charader. Laget med flest rätt vinner; blir det lika kan man spela sudden death.</p>
+
+  <h3>Jag köpte "Lås upp allt" och det syns inte på min nya mobil</h3>
+  <p>Köpet hör till ditt Apple-konto, inte till mobilen. Använd samma Apple-konto, öppna kortleksbutiken och tryck på <strong>"Återställ köp"</strong>. Syns det fortfarande inte, skriv till oss.</p>
+
+  <h3>Jag såg en annons för att låsa upp en kortlek men den låstes inte upp</h3>
+  <p>Varje kortlek kräver <strong>2 annonser som setts till slut</strong>. Stänger du annonsen innan den är klar räknas den inte. Framstegen (1/2) sparas även om du lämnar appen.</p>
+
+  <h3>Inga annonser visas för att låsa upp</h3>
+  <p>Annonser kräver internetanslutning och ibland finns ingen tillgänglig just då. Försök igen om några sekunder eller på ett annat nätverk. Du kan också låsa upp kortlekar med mynt: varje avslutat spel ger 20.</p>
+
+  <h3>Appen stängdes mitt i ett spel</h3>
+  <p>Öppna den igen inom <strong>5 minuter</strong> så ser du "Du har ett pågående spel" på startskärmen. Tryck på "Fortsätt spelet" så fortsätter du precis där du var, med turen pausad. Efter 5 minuter förloras spelet.</p>
+
+  <h3>Hur ändrar jag mina inställningar för personanpassade annonser?</h3>
+  <p>Tryck på <strong>"Annonsintegritet"</strong> i kortleksbutiken. Spårningstillståndet ändrar du i <em>Inställningar &gt; Integritet och säkerhet &gt; Spårning</em>.</p>
+
+  <h3>Kan jag få pengarna tillbaka?</h3>
+  <p>Återbetalningar i App Store hanteras av Apple. Du kan begära en på <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Jag hittade ett upprepat, felstavat eller konstigt ord</h3>
+  <p>Tack! Skriv till oss med ordet och kortleken så rättar vi det i nästa version.</p>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <p>E-post: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Berätta vilken iPhone- eller iPad-modell du har och vilken iOS-version (<em>Inställningar &gt; Allmänt &gt; Om</em>), så löser vi det snabbare.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Support</a> · <a href="privacidad.html">Integritet</a></footer>
+</template>
+<template lang="da">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Support</h1>
+  <p>Virker noget ikke? Skriv til os på <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a>, så svarer vi hurtigst muligt.</p>
+</header>
+<main>
+<section>
+  <h2>Ofte stillede spørgsmål</h2>
+
+  <h3>Hvordan spiller man?</h3>
+  <p>To hold og én telefon. Man vælger op til 4 kortbunker, og der trækkes 50 sedler. I ture på 60 sekunder kigger én spiller på telefonen, uden at holdet ser det, og får dem til at gætte. Der er tre runder med de samme ord: i runde 1 beskriver man frit, i runde 2 må man kun sige ét ord, og i runde 3 er det kun mime. Holdet med flest rigtige vinder; ved uafgjort kan man spille sudden death.</p>
+
+  <h3>Jeg har købt "Lås alt op", og det vises ikke på min nye telefon</h3>
+  <p>Købet hører til din Apple-konto, ikke til telefonen. Brug den samme Apple-konto, åbn butikken med kortbunker og tryk på <strong>"Gendan køb"</strong>. Vises det stadig ikke, så skriv til os.</p>
+
+  <h3>Jeg så en reklame for at låse en kortbunke op, men den blev ikke låst op</h3>
+  <p>Hver kortbunke kræver <strong>2 reklamer set helt færdige</strong>. Lukker du reklamen før tid, tæller den ikke. Fremskridtet (1/2) gemmes, selv hvis du forlader appen.</p>
+
+  <h3>Der vises ingen reklamer til at låse op</h3>
+  <p>Reklamer kræver internetforbindelse, og nogle gange er der ingen tilgængelige lige nu. Prøv igen om et par sekunder eller på et andet netværk. Du kan også låse kortbunker op med mønter: hvert færdigt spil giver 20.</p>
+
+  <h3>Appen lukkede midt i et spil</h3>
+  <p>Åbn den igen inden for <strong>5 minutter</strong>, så ser du "Du har et ufærdigt spil" på startskærmen. Tryk på "Fortsæt spillet", så fortsætter du præcis, hvor du var, med turen sat på pause. Efter 5 minutter går spillet tabt.</p>
+
+  <h3>Hvordan ændrer jeg mine indstillinger for personlige reklamer?</h3>
+  <p>Tryk på <strong>"Reklameprivatliv"</strong> i butikken med kortbunker. Sporingstilladelsen ændrer du under <em>Indstillinger &gt; Anonymitet og sikkerhed &gt; Sporing</em>.</p>
+
+  <h3>Kan jeg få pengene tilbage?</h3>
+  <p>Refusioner i App Store håndteres af Apple. Du kan anmode om en på <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Jeg har fundet et gentaget, stavet forkert eller upassende ord</h3>
+  <p>Tak! Skriv til os med ordet og kortbunken, så retter vi det i næste version.</p>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <p>E-mail: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Fortæl os din iPhone- eller iPad-model og iOS-version (<em>Indstillinger &gt; Generelt &gt; Om</em>), så løser vi det hurtigere.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Support</a> · <a href="privacidad.html">Privatliv</a></footer>
+</template>
+<template lang="fi">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Tuki</h1>
+  <p>Eikö jokin toimi? Kirjoita meille osoitteeseen <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a>, niin vastaamme mahdollisimman pian.</p>
+</header>
+<main>
+<section>
+  <h2>Usein kysytyt kysymykset</h2>
+
+  <h3>Miten peliä pelataan?</h3>
+  <p>Kaksi joukkuetta ja yksi puhelin. Valitaan enintään 4 pakkaa, ja niistä arvotaan 50 lappua. 60 sekunnin vuoroissa yksi pelaaja katsoo puhelinta joukkueen näkemättä ja saa heidät arvaamaan. Kierroksia on kolme samoilla sanoilla: 1. kierroksella kuvaillaan vapaasti, 2. kierroksella saa sanoa vain yhden sanan ja 3. kierroksella esitetään pelkkää pantomiimia. Eniten oikein arvannut joukkue voittaa; tasapelissä voi pelata äkkikuoleman.</p>
+
+  <h3>Ostin "Avaa kaikki" -oston, mutta se ei näy uudessa puhelimessani</h3>
+  <p>Osto on Apple-tililläsi, ei puhelimessa. Varmista, että käytät samaa Apple-tiliä, avaa pakkakauppa ja napauta <strong>"Palauta osto"</strong>. Jos se ei vieläkään näy, kirjoita meille.</p>
+
+  <h3>Katsoin mainoksen pakan avaamiseksi, mutta pakka ei auennut</h3>
+  <p>Jokainen pakka vaatii <strong>2 loppuun asti katsottua mainosta</strong>. Jos suljet mainoksen ennen loppua, se ei lasketa. Edistyminen (1/2) tallentuu, vaikka poistuisit sovelluksesta.</p>
+
+  <h3>Avaamiseen ei tule mainoksia</h3>
+  <p>Mainokset vaativat internetyhteyden, eikä niitä aina ole saatavilla juuri silloin. Yritä uudelleen muutaman sekunnin päästä tai toisella verkolla. Voit avata pakkoja myös kolikoilla: jokainen päättynyt peli antaa 20.</p>
+
+  <h3>Sovellus sulkeutui kesken pelin</h3>
+  <p>Avaa se uudelleen <strong>5 minuutin</strong> sisällä, niin aloitusnäytössä lukee "Sinulla on kesken jäänyt peli". Napauta "Jatka peliä", niin jatkat täsmälleen siitä, mihin jäit, vuoro tauolla. 5 minuutin jälkeen peli menetetään.</p>
+
+  <h3>Miten muutan kohdennettujen mainosten asetuksia?</h3>
+  <p>Napauta pakkakaupassa <strong>"Mainosten tietosuoja"</strong>. Seurantaluvan voit muuttaa kohdassa <em>Asetukset &gt; Tietosuoja ja suojaus &gt; Seuranta</em>.</p>
+
+  <h3>Voinko saada rahat takaisin?</h3>
+  <p>App Storen palautukset hoitaa Apple. Voit pyytää palautusta osoitteessa <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Löysin toistuvan, väärin kirjoitetun tai sopimattoman sanan</h3>
+  <p>Kiitos! Kirjoita meille sana ja pakka, niin korjaamme sen seuraavaan versioon.</p>
+</section>
+
+<section>
+  <h2>Yhteystiedot</h2>
+  <p>Sähköposti: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Kerro iPhone- tai iPad-mallisi ja iOS-versiosi (<em>Asetukset &gt; Yleiset &gt; Tietoja</em>), niin korjaamme ongelman nopeammin.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Tuki</a> · <a href="privacidad.html">Tietosuoja</a></footer>
+</template>
+<template lang="pl">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Pomoc</h1>
+  <p>Coś nie działa? Napisz do nas na <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a>, a odpowiemy jak najszybciej.</p>
+</header>
+<main>
+<section>
+  <h2>Najczęstsze pytania</h2>
+
+  <h3>Jak się gra?</h3>
+  <p>Dwie drużyny i jeden telefon. Wybiera się do 4 talii i losuje 50 karteczek. W turach po 60 sekund jeden gracz patrzy na telefon tak, by drużyna nie widziała, i sprawia, że zgadują. Są trzy rundy z tymi samymi słowami: w 1. opisuje się dowolnie, w 2. można powiedzieć tylko jedno słowo, a w 3. są tylko kalambury. Wygrywa drużyna z największą liczbą trafień; przy remisie można zagrać nagłą śmierć.</p>
+
+  <h3>Kupiłem „Odblokuj wszystko” i na nowym telefonie tego nie ma</h3>
+  <p>Zakup jest przypisany do konta Apple, nie do telefonu. Upewnij się, że używasz tego samego konta Apple, otwórz sklep z taliami i dotknij <strong>„Przywróć zakup”</strong>. Jeśli nadal się nie pojawia, napisz do nas.</p>
+
+  <h3>Obejrzałem reklamę, żeby odblokować talię, i się nie odblokowała</h3>
+  <p>Każda talia wymaga <strong>2 reklam obejrzanych do końca</strong>. Jeśli zamkniesz reklamę przed końcem, nie liczy się. Postęp (1/2) zapisuje się, nawet jeśli wyjdziesz z aplikacji.</p>
+
+  <h3>Nie pojawiają się reklamy do odblokowania</h3>
+  <p>Reklamy wymagają połączenia z internetem, a czasem w danej chwili żadna nie jest dostępna. Spróbuj ponownie za kilka sekund lub w innej sieci. Talie możesz też odblokować monetami: każda ukończona gra daje 20.</p>
+
+  <h3>Aplikacja zamknęła się w trakcie gry</h3>
+  <p>Otwórz ją ponownie w ciągu <strong>5 minut</strong>, a na ekranie startowym zobaczysz „Masz niedokończoną grę”. Dotknij „Kontynuuj grę” i wrócisz dokładnie tam, gdzie byłeś, z turą wstrzymaną. Po 5 minutach gra przepada.</p>
+
+  <h3>Jak zmienić ustawienia reklam spersonalizowanych?</h3>
+  <p>W sklepie z taliami dotknij <strong>„Prywatność reklam”</strong>. Pozwolenie na śledzenie zmienisz w <em>Ustawienia &gt; Prywatność i ochrona &gt; Śledzenie</em>.</p>
+
+  <h3>Czy mogę dostać zwrot pieniędzy?</h3>
+  <p>Zwroty w App Store obsługuje Apple. Możesz o nie poprosić na stronie <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Znalazłem powtórzone, błędnie napisane lub niepasujące słowo</h3>
+  <p>Dzięki! Napisz do nas, podając słowo i talię, a poprawimy je w następnej wersji.</p>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <p>E-mail: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Podaj model iPhone'a lub iPada i wersję iOS (<em>Ustawienia &gt; Ogólne &gt; To urządzenie</em>), dzięki temu szybciej to naprawimy.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Pomoc</a> · <a href="privacidad.html">Prywatność</a></footer>
+</template>
+<template lang="cs">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Podpora</h1>
+  <p>Něco nefunguje? Napiš nám na <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> a odpovíme co nejdřív.</p>
+</header>
+<main>
+<section>
+  <h2>Časté dotazy</h2>
+
+  <h3>Jak se hraje?</h3>
+  <p>Dva týmy a jeden telefon. Vybere se až 4 balíčky a vylosuje se 50 lístečků. V tazích po 60 sekundách se jeden hráč dívá na telefon, aniž by to jeho tým viděl, a nechá je hádat. Jsou tři kola se stejnými slovy: v 1. se popisuje volně, ve 2. se smí říct jen jedno slovo a ve 3. je jen pantomima. Vyhrává tým s nejvíce uhodnutými slovy; při remíze se dá hrát náhlá smrt.</p>
+
+  <h3>Koupil jsem „Odemknout vše“ a na novém telefonu to není</h3>
+  <p>Nákup patří k tvému Apple účtu, ne k telefonu. Ujisti se, že používáš stejný Apple účet, otevři obchod s balíčky a klepni na <strong>„Obnovit nákup“</strong>. Pokud se to stále nezobrazí, napiš nám.</p>
+
+  <h3>Zhlédl jsem reklamu k odemčení balíčku a neodemkl se</h3>
+  <p>Každý balíček potřebuje <strong>2 reklamy zhlédnuté celé</strong>. Když reklamu zavřeš předčasně, nepočítá se. Postup (1/2) se uloží, i když aplikaci opustíš.</p>
+
+  <h3>Nezobrazují se mi reklamy k odemčení</h3>
+  <p>Reklamy potřebují připojení k internetu a někdy zrovna žádná není k dispozici. Zkus to znovu za pár sekund nebo na jiné síti. Balíčky můžeš odemknout i mincemi: každá dokončená hra dá 20.</p>
+
+  <h3>Aplikace se zavřela uprostřed hry</h3>
+  <p>Otevři ji znovu do <strong>5 minut</strong> a na úvodní obrazovce uvidíš „Máš rozehranou hru“. Klepni na „Pokračovat ve hře“ a budeš pokračovat přesně tam, kde jsi skončil, s pozastaveným tahem. Po 5 minutách se hra ztratí.</p>
+
+  <h3>Jak změním nastavení personalizovaných reklam?</h3>
+  <p>V obchodě s balíčky klepni na <strong>„Soukromí reklam“</strong>. Povolení ke sledování změníš v <em>Nastavení &gt; Soukromí a zabezpečení &gt; Sledování</em>.</p>
+
+  <h3>Můžu dostat peníze zpět?</h3>
+  <p>Vrácení peněz v App Storu řeší Apple. Požádat o něj můžeš na <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Našel jsem opakované, špatně napsané nebo nevhodné slovo</h3>
+  <p>Díky! Napiš nám slovo a balíček a v další verzi ho opravíme.</p>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <p>E-mail: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Napiš nám model iPhonu nebo iPadu a verzi iOS (<em>Nastavení &gt; Obecné &gt; Informace</em>), vyřešíme to rychleji.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Podpora</a> · <a href="privacidad.html">Soukromí</a></footer>
+</template>
+<template lang="sk">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Podpora</h1>
+  <p>Niečo nefunguje? Napíš nám na <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> a odpovieme čo najskôr.</p>
+</header>
+<main>
+<section>
+  <h2>Časté otázky</h2>
+
+  <h3>Ako sa hrá?</h3>
+  <p>Dva tímy a jeden telefón. Vyberie sa až 4 balíčky a vylosuje sa 50 lístkov. V ťahoch po 60 sekúnd sa jeden hráč pozerá na telefón tak, aby to jeho tím nevidel, a nechá ich hádať. Sú tri kolá s rovnakými slovami: v 1. sa opisuje voľne, v 2. sa smie povedať len jedno slovo a v 3. je len pantomíma. Vyhráva tím s najviac uhádnutými slovami; pri remíze sa dá hrať náhla smrť.</p>
+
+  <h3>Kúpil som „Odomknúť všetko“ a na novom telefóne to nie je</h3>
+  <p>Nákup patrí k tvojmu Apple účtu, nie k telefónu. Uisti sa, že používaš rovnaký Apple účet, otvor obchod s balíčkami a ťukni na <strong>„Obnoviť nákup“</strong>. Ak sa to stále nezobrazí, napíš nám.</p>
+
+  <h3>Pozrel som reklamu na odomknutie balíčka a neodomkol sa</h3>
+  <p>Každý balíček potrebuje <strong>2 reklamy pozreté celé</strong>. Ak reklamu zavrieš predčasne, nepočíta sa. Postup (1/2) sa uloží, aj keď aplikáciu opustíš.</p>
+
+  <h3>Nezobrazujú sa mi reklamy na odomknutie</h3>
+  <p>Reklamy potrebujú pripojenie na internet a niekedy práve žiadna nie je k dispozícii. Skús to znova o pár sekúnd alebo na inej sieti. Balíčky môžeš odomknúť aj mincami: každá dokončená hra dá 20.</p>
+
+  <h3>Aplikácia sa zavrela uprostred hry</h3>
+  <p>Otvor ju znova do <strong>5 minút</strong> a na úvodnej obrazovke uvidíš „Máš rozohratú hru“. Ťukni na „Pokračovať v hre“ a budeš pokračovať presne tam, kde si skončil, s pozastaveným ťahom. Po 5 minútach sa hra stratí.</p>
+
+  <h3>Ako zmením nastavenia personalizovaných reklám?</h3>
+  <p>V obchode s balíčkami ťukni na <strong>„Súkromie reklám“</strong>. Povolenie na sledovanie zmeníš v <em>Nastavenia &gt; Súkromie a bezpečnosť &gt; Sledovanie</em>.</p>
+
+  <h3>Môžem dostať peniaze späť?</h3>
+  <p>Vrátenie peňazí v App Store rieši Apple. Požiadať oň môžeš na <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Našiel som opakované, zle napísané alebo nevhodné slovo</h3>
+  <p>Ďakujeme! Napíš nám slovo a balíček a v ďalšej verzii ho opravíme.</p>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <p>E-mail: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Napíš nám model iPhonu alebo iPadu a verziu iOS (<em>Nastavenia &gt; Všeobecné &gt; Informácie</em>), vyriešime to rýchlejšie.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Podpora</a> · <a href="privacidad.html">Súkromie</a></footer>
+</template>
+<template lang="sl">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Podpora</h1>
+  <p>Kaj ne deluje? Piši nam na <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> in odgovorili bomo čim prej.</p>
+</header>
+<main>
+<section>
+  <h2>Pogosta vprašanja</h2>
+
+  <h3>Kako se igra?</h3>
+  <p>Dve ekipi in en telefon. Izbere se do 4 komplete in izžreba 50 listkov. V 60-sekundnih potezah en igralec gleda telefon, ne da bi ekipa videla, in jih pripravi do ugibanja. So trije krogi z istimi besedami: v 1. se prosto opisuje, v 2. se sme reči samo eno besedo, v 3. pa je samo pantomima. Zmaga ekipa z največ zadetki; ob izenačenju lahko igrate nenadno smrt.</p>
+
+  <h3>Kupil sem »Odkleni vse«, a v novem telefonu tega ni</h3>
+  <p>Nakup je vezan na tvoj račun Apple, ne na telefon. Preveri, da uporabljaš isti račun Apple, odpri trgovino s kompleti in tapni <strong>»Obnovi nakup«</strong>. Če se še vedno ne prikaže, nam piši.</p>
+
+  <h3>Ogledal sem si oglas za odklep kompleta, a se ni odklenil</h3>
+  <p>Vsak komplet potrebuje <strong>2 do konca ogledana oglasa</strong>. Če oglas zapreš prej, se ne šteje. Napredek (1/2) se shrani, tudi če zapustiš aplikacijo.</p>
+
+  <h3>Ne prikazujejo se mi oglasi za odklep</h3>
+  <p>Oglasi potrebujejo internetno povezavo in včasih v tistem trenutku ni nobenega na voljo. Poskusi znova čez nekaj sekund ali v drugem omrežju. Komplete lahko odkleneš tudi s kovanci: vsaka končana igra prinese 20.</p>
+
+  <h3>Aplikacija se je zaprla sredi igre</h3>
+  <p>Znova jo odpri v <strong>5 minutah</strong> in na začetnem zaslonu boš videl »Imaš nedokončano igro«. Tapni »Nadaljuj igro« in nadaljeval boš točno tam, kjer si ostal, s potezo na premoru. Po 5 minutah se igra izgubi.</p>
+
+  <h3>Kako spremenim nastavitve prilagojenih oglasov?</h3>
+  <p>V trgovini s kompleti tapni <strong>»Zasebnost oglasov«</strong>. Dovoljenje za sledenje spremeniš v <em>Nastavitve &gt; Zasebnost in varnost &gt; Sledenje</em>.</p>
+
+  <h3>Ali lahko dobim vračilo denarja?</h3>
+  <p>Vračila v App Store ureja Apple. Zahtevaš ga lahko na <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Našel sem ponovljeno, napačno zapisano ali neprimerno besedo</h3>
+  <p>Hvala! Piši nam besedo in komplet, pa jo bomo popravili v naslednji različici.</p>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <p>E-pošta: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Sporoči nam model iPhona ali iPada in različico iOS (<em>Nastavitve &gt; Splošno &gt; Opis</em>), da bomo težavo hitreje odpravili.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Podpora</a> · <a href="privacidad.html">Zasebnost</a></footer>
+</template>
+<template lang="hr">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Podrška</h1>
+  <p>Nešto ne radi? Piši nam na <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> i odgovorit ćemo što prije.</p>
+</header>
+<main>
+<section>
+  <h2>Česta pitanja</h2>
+
+  <h3>Kako se igra?</h3>
+  <p>Dvije ekipe i jedan mobitel. Odabere se do 4 špila i izvuče 50 papirića. U potezima od 60 sekundi jedan igrač gleda mobitel, a da ekipa ne vidi, i navodi ih da pogode. Postoje tri runde s istim riječima: u 1. se slobodno opisuje, u 2. smije se reći samo jedna riječ, a u 3. je samo pantomima. Pobjeđuje ekipa s najviše pogodaka; kod neriješenog može se igrati iznenadna smrt.</p>
+
+  <h3>Kupio sam „Otključaj sve”, a na novom mobitelu se ne pojavljuje</h3>
+  <p>Kupnja je vezana uz tvoj Apple račun, a ne uz mobitel. Provjeri koristiš li isti Apple račun, otvori trgovinu špilova i dodirni <strong>„Vrati kupnju”</strong>. Ako se ni tada ne pojavi, piši nam.</p>
+
+  <h3>Pogledao sam oglas za otključavanje špila, a nije se otključao</h3>
+  <p>Svaki špil traži <strong>2 oglasa pogledana do kraja</strong>. Ako oglas zatvoriš prije kraja, ne računa se. Napredak (1/2) se sprema i ako izađeš iz aplikacije.</p>
+
+  <h3>Ne pojavljuju mi se oglasi za otključavanje</h3>
+  <p>Oglasi trebaju internetsku vezu, a ponekad u tom trenutku nijedan nije dostupan. Pokušaj ponovno za nekoliko sekundi ili na drugoj mreži. Špilove možeš otključati i novčićima: svaka završena igra donosi 20.</p>
+
+  <h3>Aplikacija se zatvorila usred igre</h3>
+  <p>Ponovno je otvori u roku od <strong>5 minuta</strong> i na početnom zaslonu vidjet ćeš „Imaš nedovršenu igru”. Dodirni „Nastavi igru” i nastavit ćeš točno gdje si stao, s pauziranim potezom. Nakon 5 minuta igra se gubi.</p>
+
+  <h3>Kako mijenjam postavke personaliziranih oglasa?</h3>
+  <p>U trgovini špilova dodirni <strong>„Privatnost oglasa”</strong>. Dopuštenje za praćenje mijenjaš u <em>Postavke &gt; Privatnost i sigurnost &gt; Praćenje</em>.</p>
+
+  <h3>Mogu li dobiti povrat novca?</h3>
+  <p>Povrate u App Storeu obrađuje Apple. Možeš ga zatražiti na <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Našao sam ponovljenu, krivo napisanu ili neprikladnu riječ</h3>
+  <p>Hvala! Piši nam riječ i špil i ispravit ćemo je u sljedećoj verziji.</p>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <p>E-pošta: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Napiši nam model iPhonea ili iPada i verziju iOS-a (<em>Postavke &gt; Općenito &gt; Opis</em>), pa ćemo brže riješiti problem.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Podrška</a> · <a href="privacidad.html">Privatnost</a></footer>
+</template>
+<template lang="hu">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Támogatás</h1>
+  <p>Valami nem működik? Írj nekünk a <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> címre, és amint lehet, válaszolunk.</p>
+</header>
+<main>
+<section>
+  <h2>Gyakori kérdések</h2>
+
+  <h3>Hogyan kell játszani?</h3>
+  <p>Két csapat és egy telefon. Legfeljebb 4 paklit választotok, és 50 cetlit húztok. 60 másodperces körökben egy játékos úgy nézi a telefont, hogy a csapata ne lássa, és kitaláltatja velük. Három forduló van ugyanazokkal a szavakkal: az 1.-ben szabadon körül lehet írni, a 2.-ban csak egy szót szabad mondani, a 3.-ban pedig csak pantomim van. Az a csapat nyer, amelyik a legtöbbet találja ki; döntetlen esetén hirtelen halált lehet játszani.</p>
+
+  <h3>Megvettem a „Minden feloldása” csomagot, de az új telefonomon nem jelenik meg</h3>
+  <p>A vásárlás az Apple-fiókodhoz tartozik, nem a telefonhoz. Ellenőrizd, hogy ugyanazt az Apple-fiókot használod, nyisd meg a pakliboltot, és koppints a <strong>„Vásárlás visszaállítása”</strong> gombra. Ha így sem jelenik meg, írj nekünk.</p>
+
+  <h3>Megnéztem egy hirdetést a pakli feloldásához, de nem oldódott fel</h3>
+  <p>Minden paklihoz <strong>2 végignézett hirdetés</strong> kell. Ha a hirdetést a vége előtt bezárod, nem számít. Az előrehaladás (1/2) akkor is megmarad, ha kilépsz az alkalmazásból.</p>
+
+  <h3>Nem jelennek meg hirdetések a feloldáshoz</h3>
+  <p>A hirdetésekhez internetkapcsolat kell, és néha éppen nincs elérhető hirdetés. Próbáld újra néhány másodperc múlva vagy másik hálózaton. A paklikat érmékkel is feloldhatod: minden befejezett játék 20-at ad.</p>
+
+  <h3>Az alkalmazás játék közben bezárult</h3>
+  <p>Nyisd meg újra <strong>5 percen</strong> belül, és a kezdőképernyőn ezt látod: „Van egy befejezetlen játékod”. Koppints a „Játék folytatása” gombra, és pontosan ott folytatod, ahol abbahagytad, szüneteltetett körrel. 5 perc után a játék elvész.</p>
+
+  <h3>Hogyan módosíthatom a személyre szabott hirdetések beállításait?</h3>
+  <p>A pakliboltban koppints a <strong>„Hirdetések adatvédelme”</strong> gombra. A követési engedélyt a <em>Beállítások &gt; Adatvédelem és biztonság &gt; Követés</em> menüben módosíthatod.</p>
+
+  <h3>Kérhetek visszatérítést?</h3>
+  <p>Az App Store-visszatérítéseket az Apple kezeli. A <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> oldalon kérheted.</p>
+
+  <h3>Ismétlődő, elírt vagy oda nem illő szót találtam</h3>
+  <p>Köszönjük! Írd meg a szót és a paklit, és a következő verzióban javítjuk.</p>
+</section>
+
+<section>
+  <h2>Kapcsolat</h2>
+  <p>E-mail: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Írd meg az iPhone- vagy iPad-típusodat és az iOS-verziót (<em>Beállítások &gt; Általános &gt; Névjegy</em>), így gyorsabban megoldjuk.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Támogatás</a> · <a href="privacidad.html">Adatvédelem</a></footer>
+</template>
+<template lang="ro">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Asistență</h1>
+  <p>Ceva nu merge? Scrie-ne la <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> și îți răspundem cât mai repede.</p>
+</header>
+<main>
+<section>
+  <h2>Întrebări frecvente</h2>
+
+  <h3>Cum se joacă?</h3>
+  <p>Două echipe și un singur telefon. Se aleg până la 4 pachete și se extrag 50 de bilețele. În ture de 60 de secunde, un jucător se uită la telefon fără ca echipa lui să vadă și îi face să ghicească. Sunt trei runde cu aceleași cuvinte: în prima se descrie liber, în a doua se poate spune un singur cuvânt, iar în a treia doar mimă. Câștigă echipa care ghicește cele mai multe; la egalitate se poate juca o moarte subită.</p>
+
+  <h3>Am cumpărat „Deblochează tot” și pe telefonul nou nu apare</h3>
+  <p>Achiziția este în contul tău Apple, nu în telefon. Asigură-te că folosești același cont Apple, deschide magazinul de pachete și atinge <strong>„Restaurează achiziția”</strong>. Dacă tot nu apare, scrie-ne.</p>
+
+  <h3>Am văzut o reclamă ca să deblochez un pachet și nu s-a deblocat</h3>
+  <p>Fiecare pachet are nevoie de <strong>2 reclame văzute integral</strong>. Dacă închizi reclama înainte de final, nu se pune. Progresul (1/2) rămâne salvat chiar dacă ieși din aplicație.</p>
+
+  <h3>Nu îmi apar reclame pentru deblocare</h3>
+  <p>Reclamele au nevoie de conexiune la internet și uneori nu e niciuna disponibilă în acel moment. Încearcă din nou peste câteva secunde sau pe altă rețea. Poți debloca pachete și cu monede: fiecare joc terminat aduce 20.</p>
+
+  <h3>Aplicația s-a închis în mijlocul unui joc</h3>
+  <p>Deschide-o din nou în mai puțin de <strong>5 minute</strong> și pe ecranul principal vei vedea „Ai un joc neterminat”. Atinge „Continuă jocul” și continui exact de unde ai rămas, cu tura pe pauză. După 5 minute jocul se pierde.</p>
+
+  <h3>Cum îmi schimb preferințele pentru reclamele personalizate?</h3>
+  <p>În magazinul de pachete, atinge <strong>„Confidențialitatea reclamelor”</strong>. Permisiunea de urmărire o schimbi din <em>Configurări &gt; Confidențialitate și securitate &gt; Urmărire</em>.</p>
+
+  <h3>Pot cere banii înapoi?</h3>
+  <p>Rambursările din App Store sunt gestionate de Apple. Poți cere una la <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Am găsit un cuvânt repetat, scris greșit sau nepotrivit</h3>
+  <p>Mulțumim! Scrie-ne cuvântul și pachetul și îl corectăm în versiunea următoare.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>E-mail: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Spune-ne modelul de iPhone sau iPad și versiunea iOS (<em>Configurări &gt; General &gt; Informații</em>), ca să rezolvăm mai repede.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Asistență</a> · <a href="privacidad.html">Confidențialitate</a></footer>
+</template>
+<template lang="bg">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Поддръжка</h1>
+  <p>Нещо не работи? Пиши ни на <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> и ще отговорим възможно най-скоро.</p>
+</header>
+<main>
+<section>
+  <h2>Често задавани въпроси</h2>
+
+  <h3>Как се играе?</h3>
+  <p>Два отбора и един телефон. Избират се до 4 тестета и се теглят 50 листчета. На ходове от 60 секунди един играч гледа телефона, без отборът му да вижда, и ги кара да познаят. Има три рунда със същите думи: в 1-вия се описва свободно, във 2-рия може да се каже само една дума, а в 3-тия е само пантомима. Печели отборът с най-много познати; при равенство може да се играе внезапна смърт.</p>
+
+  <h3>Купих „Отключи всичко“, но на новия ми телефон го няма</h3>
+  <p>Покупката е в акаунта ти в Apple, а не в телефона. Увери се, че използваш същия акаунт в Apple, отвори магазина за тестета и докосни <strong>„Възстанови покупката“</strong>. Ако все още не се появява, пиши ни.</p>
+
+  <h3>Гледах реклама, за да отключа тесте, но то не се отключи</h3>
+  <p>Всяко тесте изисква <strong>2 реклами, изгледани докрай</strong>. Ако затвориш рекламата преди края, не се брои. Напредъкът (1/2) се запазва, дори ако излезеш от приложението.</p>
+
+  <h3>Не ми се показват реклами за отключване</h3>
+  <p>Рекламите изискват интернет връзка и понякога в момента няма налична. Опитай пак след няколко секунди или в друга мрежа. Можеш да отключваш тестета и с монети: всяка завършена игра дава 20.</p>
+
+  <h3>Приложението се затвори по средата на игра</h3>
+  <p>Отвори го отново до <strong>5 минути</strong> и на началния екран ще видиш „Имаш незавършена игра“. Докосни „Продължи играта“ и ще продължиш точно оттам, откъдето спря, с ход на пауза. След 5 минути играта се губи.</p>
+
+  <h3>Как да променя настройките за персонализирани реклами?</h3>
+  <p>В магазина за тестета докосни <strong>„Поверителност на рекламите“</strong>. Разрешението за проследяване се променя в <em>Настройки &gt; Поверителност и сигурност &gt; Проследяване</em>.</p>
+
+  <h3>Мога ли да си върна парите?</h3>
+  <p>Възстановяванията в App Store се обработват от Apple. Можеш да поискаш такова на <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Открих повтаряща се, грешно написана или неподходяща дума</h3>
+  <p>Благодарим! Пиши ни думата и тестето и ще я поправим в следващата версия.</p>
+</section>
+
+<section>
+  <h2>Контакт</h2>
+  <p>Имейл: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Кажи ни модела на своя iPhone или iPad и версията на iOS (<em>Настройки &gt; Общи &gt; Информация</em>), за да го оправим по-бързо.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Поддръжка</a> · <a href="privacidad.html">Поверителност</a></footer>
+</template>
+<template lang="el">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Υποστήριξη</h1>
+  <p>Κάτι δεν λειτουργεί; Γράψε μας στο <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> και θα σου απαντήσουμε το συντομότερο.</p>
+</header>
+<main>
+<section>
+  <h2>Συχνές ερωτήσεις</h2>
+
+  <h3>Πώς παίζεται;</h3>
+  <p>Δύο ομάδες και ένα κινητό. Επιλέγετε έως 4 τράπουλες και τραβιούνται 50 χαρτάκια. Σε σειρές των 60 δευτερολέπτων, ένας παίκτης κοιτάζει το κινητό χωρίς να το δει η ομάδα του και τους βάζει να μαντέψουν. Υπάρχουν τρεις γύροι με τις ίδιες λέξεις: στον 1ο περιγράφεις ελεύθερα, στον 2ο λες μόνο μία λέξη και στον 3ο κάνεις μόνο παντομίμα. Κερδίζει η ομάδα με τα περισσότερα σωστά· σε ισοπαλία μπορείτε να παίξετε ξαφνικό θάνατο.</p>
+
+  <h3>Αγόρασα το «Ξεκλείδωμα όλων» και στο νέο μου κινητό δεν εμφανίζεται</h3>
+  <p>Η αγορά βρίσκεται στον λογαριασμό σου Apple, όχι στο κινητό. Βεβαιώσου ότι χρησιμοποιείς τον ίδιο λογαριασμό Apple, άνοιξε το κατάστημα τραπουλών και πάτα <strong>«Επαναφορά αγοράς»</strong>. Αν ακόμα δεν εμφανίζεται, γράψε μας.</p>
+
+  <h3>Είδα διαφήμιση για να ξεκλειδώσω τράπουλα και δεν ξεκλειδώθηκε</h3>
+  <p>Κάθε τράπουλα χρειάζεται <strong>2 διαφημίσεις που προβλήθηκαν ολόκληρες</strong>. Αν κλείσεις τη διαφήμιση πριν τελειώσει, δεν μετράει. Η πρόοδος (1/2) αποθηκεύεται ακόμα κι αν βγεις από την εφαρμογή.</p>
+
+  <h3>Δεν μου εμφανίζονται διαφημίσεις για ξεκλείδωμα</h3>
+  <p>Οι διαφημίσεις χρειάζονται σύνδεση στο ίντερνετ και μερικές φορές δεν υπάρχει καμία διαθέσιμη εκείνη τη στιγμή. Δοκίμασε ξανά σε λίγα δευτερόλεπτα ή σε άλλο δίκτυο. Μπορείς επίσης να ξεκλειδώσεις τράπουλες με νομίσματα: κάθε ολοκληρωμένο παιχνίδι δίνει 20.</p>
+
+  <h3>Η εφαρμογή έκλεισε στη μέση ενός παιχνιδιού</h3>
+  <p>Άνοιξέ την ξανά μέσα σε <strong>5 λεπτά</strong> και στην αρχική οθόνη θα δεις «Έχεις ένα μισοτελειωμένο παιχνίδι». Πάτα «Συνέχεια παιχνιδιού» και θα συνεχίσεις ακριβώς από εκεί που ήσουν, με τη σειρά σε παύση. Μετά από 5 λεπτά το παιχνίδι χάνεται.</p>
+
+  <h3>Πώς αλλάζω τις προτιμήσεις για εξατομικευμένες διαφημίσεις;</h3>
+  <p>Στο κατάστημα τραπουλών, πάτα <strong>«Απόρρητο διαφημίσεων»</strong>. Την άδεια παρακολούθησης την αλλάζεις από <em>Ρυθμίσεις &gt; Απόρρητο και ασφάλεια &gt; Παρακολούθηση</em>.</p>
+
+  <h3>Μπορώ να πάρω επιστροφή χρημάτων;</h3>
+  <p>Τις επιστροφές του App Store τις διαχειρίζεται η Apple. Μπορείς να τη ζητήσεις στο <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Βρήκα λέξη που επαναλαμβάνεται, είναι λάθος γραμμένη ή δεν ταιριάζει</h3>
+  <p>Ευχαριστούμε! Γράψε μας τη λέξη και την τράπουλα και θα τη διορθώσουμε στην επόμενη έκδοση.</p>
+</section>
+
+<section>
+  <h2>Επικοινωνία</h2>
+  <p>Email: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Πες μας το μοντέλο του iPhone ή του iPad σου και την έκδοση iOS (<em>Ρυθμίσεις &gt; Γενικά &gt; Πληροφορίες</em>), για να το διορθώσουμε πιο γρήγορα.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Υποστήριξη</a> · <a href="privacidad.html">Απόρρητο</a></footer>
+</template>
+<template lang="et">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Tugi</h1>
+  <p>Midagi ei tööta? Kirjuta meile aadressil <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> ja vastame võimalikult kiiresti.</p>
+</header>
+<main>
+<section>
+  <h2>Korduma kippuvad küsimused</h2>
+
+  <h3>Kuidas mängida?</h3>
+  <p>Kaks võistkonda ja üks telefon. Valitakse kuni 4 pakki ja loositakse 50 paberikest. 60-sekundilistes käikudes vaatab üks mängija telefoni nii, et võistkond ei näe, ja laseb neil arvata. Voore on kolm samade sõnadega: 1. voorus kirjeldatakse vabalt, 2. voorus tohib öelda ainult ühe sõna ja 3. voorus on ainult pantomiim. Võidab võistkond, kes arvab kõige rohkem; viigi korral saab mängida äkksurma.</p>
+
+  <h3>Ostsin „Ava kõik“, aga uues telefonis seda pole</h3>
+  <p>Ost on seotud sinu Apple'i kontoga, mitte telefoniga. Veendu, et kasutad sama Apple'i kontot, ava pakipood ja puuduta <strong>„Taasta ost“</strong>. Kui ikka ei ilmu, kirjuta meile.</p>
+
+  <h3>Vaatasin paki avamiseks reklaami, aga pakk ei avanenud</h3>
+  <p>Iga pakk vajab <strong>2 lõpuni vaadatud reklaami</strong>. Kui sulged reklaami enne lõppu, seda ei arvestata. Edenemine (1/2) salvestub ka siis, kui rakendusest lahkud.</p>
+
+  <h3>Avamiseks ei ilmu reklaame</h3>
+  <p>Reklaamid vajavad internetiühendust ja mõnikord pole parasjagu ühtegi saadaval. Proovi mõne sekundi pärast uuesti või teises võrgus. Pakke saab avada ka müntidega: iga lõpetatud mäng annab 20.</p>
+
+  <h3>Rakendus sulgus keset mängu</h3>
+  <p>Ava see uuesti <strong>5 minuti</strong> jooksul ja avakuval näed „Sul on pooleli jäänud mäng“. Puuduta „Jätka mängu“ ja jätkad täpselt sealt, kus pooleli jäid, käik on pausil. 5 minuti pärast läheb mäng kaotsi.</p>
+
+  <h3>Kuidas muuta isikupärastatud reklaamide seadeid?</h3>
+  <p>Puuduta pakipoes <strong>„Reklaamide privaatsus“</strong>. Jälgimisluba muudad jaotises <em>Seaded &gt; Privaatsus ja turvalisus &gt; Jälgimine</em>.</p>
+
+  <h3>Kas saan raha tagasi?</h3>
+  <p>App Store'i tagasimakseid haldab Apple. Saad seda taotleda aadressil <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Leidsin korduva, valesti kirjutatud või sobimatu sõna</h3>
+  <p>Aitäh! Kirjuta meile sõna ja pakk ning parandame selle järgmises versioonis.</p>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <p>E-post: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Kirjuta meile oma iPhone'i või iPadi mudel ja iOS-i versioon (<em>Seaded &gt; Üldine &gt; Teave</em>), siis lahendame probleemi kiiremini.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Tugi</a> · <a href="privacidad.html">Privaatsus</a></footer>
+</template>
+<template lang="lv">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Atbalsts</h1>
+  <p>Kaut kas nedarbojas? Raksti mums uz <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a>, un mēs atbildēsim pēc iespējas ātrāk.</p>
+</header>
+<main>
+<section>
+  <h2>Biežāk uzdotie jautājumi</h2>
+
+  <h3>Kā spēlēt?</h3>
+  <p>Divas komandas un viens telefons. Izvēlas līdz 4 kavām, un tiek izvilktas 50 lapiņas. 60 sekunžu gājienos viens spēlētājs skatās telefonā tā, lai komanda neredz, un liek viņiem minēt. Ir trīs raundi ar tiem pašiem vārdiem: 1. raundā apraksta brīvi, 2. drīkst teikt tikai vienu vārdu, bet 3. ir tikai pantomīma. Uzvar komanda ar visvairāk pareizām atbildēm; neizšķirta gadījumā var spēlēt pēkšņo nāvi.</p>
+
+  <h3>Nopirku „Atbloķēt visu”, bet jaunajā telefonā tas neparādās</h3>
+  <p>Pirkums ir piesaistīts tavam Apple kontam, nevis telefonam. Pārliecinies, ka izmanto to pašu Apple kontu, atver kavu veikalu un pieskaries <strong>„Atjaunot pirkumu”</strong>. Ja tas joprojām neparādās, raksti mums.</p>
+
+  <h3>Noskatījos reklāmu, lai atbloķētu kavu, bet tā netika atbloķēta</h3>
+  <p>Katrai kavai vajag <strong>2 līdz galam noskatītas reklāmas</strong>. Ja aizver reklāmu pirms beigām, tā netiek ieskaitīta. Progress (1/2) saglabājas, pat ja iziet no lietotnes.</p>
+
+  <h3>Neparādās reklāmas atbloķēšanai</h3>
+  <p>Reklāmām vajag interneta savienojumu, un dažkārt tajā brīdī neviena nav pieejama. Mēģini vēlreiz pēc dažām sekundēm vai citā tīklā. Kavas vari atbloķēt arī ar monētām: katra pabeigta spēle dod 20.</p>
+
+  <h3>Lietotne aizvērās spēles vidū</h3>
+  <p>Atver to vēlreiz <strong>5 minūšu</strong> laikā, un sākuma ekrānā redzēsi „Tev ir nepabeigta spēle”. Pieskaries „Turpināt spēli”, un turpināsi tieši no tās vietas, kur biji, ar gājienu pauzē. Pēc 5 minūtēm spēle tiek zaudēta.</p>
+
+  <h3>Kā mainīt personalizēto reklāmu iestatījumus?</h3>
+  <p>Kavu veikalā pieskaries <strong>„Reklāmu privātums”</strong>. Izsekošanas atļauju maini sadaļā <em>Iestatījumi &gt; Privātums un drošība &gt; Izsekošana</em>.</p>
+
+  <h3>Vai varu atgūt naudu?</h3>
+  <p>App Store atmaksas apstrādā Apple. To vari pieprasīt vietnē <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Atradu atkārtotu, nepareizi uzrakstītu vai nepiemērotu vārdu</h3>
+  <p>Paldies! Uzraksti mums vārdu un kavu, un mēs to izlabosim nākamajā versijā.</p>
+</section>
+
+<section>
+  <h2>Kontakti</h2>
+  <p>E-pasts: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Norādi sava iPhone vai iPad modeli un iOS versiju (<em>Iestatījumi &gt; Vispārīgi &gt; Par</em>), lai mēs to atrisinātu ātrāk.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Atbalsts</a> · <a href="privacidad.html">Privātums</a></footer>
+</template>
+<template lang="lt">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Pagalba</h1>
+  <p>Kažkas neveikia? Parašyk mums <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> ir atsakysime kuo greičiau.</p>
+</header>
+<main>
+<section>
+  <h2>Dažni klausimai</h2>
+
+  <h3>Kaip žaisti?</h3>
+  <p>Dvi komandos ir vienas telefonas. Pasirenkama iki 4 kaladžių ir ištraukiama 50 lapelių. 60 sekundžių ėjimais vienas žaidėjas žiūri į telefoną taip, kad komanda nematytų, ir priverčia juos spėti. Yra trys raundai su tais pačiais žodžiais: 1 raunde apibūdinama laisvai, 2 galima pasakyti tik vieną žodį, o 3 – tik pantomima. Laimi daugiausia atspėjusi komanda; lygiųjų atveju galima žaisti staigią mirtį.</p>
+
+  <h3>Įsigijau „Atrakinti viską“, bet naujame telefone to nėra</h3>
+  <p>Pirkinys susietas su tavo „Apple“ paskyra, o ne su telefonu. Įsitikink, kad naudoji tą pačią „Apple“ paskyrą, atidaryk kaladžių parduotuvę ir bakstelėk <strong>„Atkurti pirkinį“</strong>. Jei vis tiek neatsiranda, parašyk mums.</p>
+
+  <h3>Peržiūrėjau reklamą, kad atrakinčiau kaladę, bet ji neatsirakino</h3>
+  <p>Kiekvienai kaladei reikia <strong>2 iki galo peržiūrėtų reklamų</strong>. Jei uždarai reklamą anksčiau, ji neįskaitoma. Pažanga (1/2) išsaugoma, net jei išeini iš programėlės.</p>
+
+  <h3>Nerodomos reklamos atrakinimui</h3>
+  <p>Reklamoms reikia interneto ryšio, o kartais tuo metu nė vienos nėra. Bandyk dar kartą po kelių sekundžių arba kitame tinkle. Kalades gali atrakinti ir monetomis: kiekvienas baigtas žaidimas duoda 20.</p>
+
+  <h3>Programėlė užsidarė žaidimo viduryje</h3>
+  <p>Atidaryk ją dar kartą per <strong>5 minutes</strong> ir pradiniame ekrane pamatysi „Turi nebaigtą žaidimą“. Bakstelėk „Tęsti žaidimą“ ir tęsi lygiai ten, kur buvai, su pristabdytu ėjimu. Po 5 minučių žaidimas prarandamas.</p>
+
+  <h3>Kaip pakeisti suasmenintų reklamų nustatymus?</h3>
+  <p>Kaladžių parduotuvėje bakstelėk <strong>„Reklamų privatumas“</strong>. Leidimą sekti pakeisi skiltyje <em>Nustatymai &gt; Privatumas ir sauga &gt; Sekimas</em>.</p>
+
+  <h3>Ar galiu susigrąžinti pinigus?</h3>
+  <p>„App Store“ grąžinimus tvarko „Apple“. Jo gali paprašyti <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Radau pasikartojantį, klaidingai parašytą ar netinkamą žodį</h3>
+  <p>Ačiū! Parašyk mums žodį ir kaladę – pataisysime kitoje versijoje.</p>
+</section>
+
+<section>
+  <h2>Kontaktai</h2>
+  <p>El. paštas: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Nurodyk savo „iPhone“ ar „iPad“ modelį ir „iOS“ versiją (<em>Nustatymai &gt; Bendrieji &gt; Apie</em>), tada problemą išspręsime greičiau.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Pagalba</a> · <a href="privacidad.html">Privatumas</a></footer>
+</template>
+<template lang="mt">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>Appoġġ</h1>
+  <p>Xi ħaġa mhix taħdem? Iktbilna fuq <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> u nweġbuk malajr kemm jista' jkun.</p>
+</header>
+<main>
+<section>
+  <h2>Mistoqsijiet frekwenti</h2>
+
+  <h3>Kif tilgħab?</h3>
+  <p>Żewġ timijiet u mowbajl wieħed. Jintgħażlu sa 4 pakketti u joħorġu 50 karta. F'dawriet ta' 60 sekonda, plejer wieħed iħares lejn il-mowbajl mingħajr ma t-tim tiegħu jara u jġagħalhom jaqtgħu. Hemm tliet rawnds bl-istess kliem: fl-ewwel tiddeskrivi kif trid, fit-tieni tista' tgħid kelma waħda biss u fit-tielet mimika biss. Jirbaħ it-tim li jaqta' l-aktar; jekk ikun hemm draw, tista' tilgħab mewt f'daqqa.</p>
+
+  <h3>Xtrajt "Iftaħ kollox" u fuq il-mowbajl il-ġdid ma jidhirx</h3>
+  <p>Ix-xiri jinsab fil-kont Apple tiegħek, mhux fil-mowbajl. Aċċerta ruħek li qed tuża l-istess kont Apple, iftaħ il-ħanut tal-pakketti u agħfas <strong>"Irrestawra x-xiri"</strong>. Jekk xorta ma jidhirx, iktbilna.</p>
+
+  <h3>Rajt reklam biex niftaħ pakkett u ma nfetaħx</h3>
+  <p>Kull pakkett jeħtieġ <strong>2 reklami li jintraw sal-aħħar</strong>. Jekk tagħlaq ir-reklam qabel jispiċċa, ma jgħoddx. Il-progress (1/2) jibqa' salvat anke jekk toħroġ mill-app.</p>
+
+  <h3>Ma jidhrulix reklami biex niftaħ</h3>
+  <p>Ir-reklami jeħtieġu konnessjoni mal-internet u xi drabi ma jkun hemm l-ebda wieħed disponibbli f'dak il-mument. Erġa' pprova fi ftit sekondi jew fuq netwerk ieħor. Tista' tiftaħ pakketti anke bil-muniti: kull logħba lesta tagħti 20.</p>
+
+  <h3>L-app ingħalqet f'nofs logħba</h3>
+  <p>Erġa' iftaħha f'inqas minn <strong>5 minuti</strong> u fuq l-iskrin ewlieni tara "Għandek logħba mhux lesta". Agħfas "Kompli l-logħba" u tkompli eżatt minn fejn tlaqt, bid-dawra fuq pawża. Wara 5 minuti l-logħba tintilef.</p>
+
+  <h3>Kif nibdel il-preferenzi tar-reklami personalizzati?</h3>
+  <p>Fil-ħanut tal-pakketti, agħfas <strong>"Privatezza tar-reklami"</strong>. Il-permess tat-traċċar tibdlu minn <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em>.</p>
+
+  <h3>Nista' nitlob rifużjoni?</h3>
+  <p>Ir-rifużjonijiet tal-App Store jimmaniġġjahom Apple. Tista' titlobha fuq <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>Sibt kelma ripetuta, miktuba ħażin jew li ma taqbilx</h3>
+  <p>Grazzi! Iktbilna l-kelma u l-pakkett u nikkoreġuha fil-verżjoni li jmiss.</p>
+</section>
+
+<section>
+  <h2>Kuntatt</h2>
+  <p>Email: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  Għidilna l-mudell tal-iPhone jew tal-iPad tiegħek u l-verżjoni tal-iOS (<em>Settings &gt; General &gt; About</em>), hekk insolvuha aktar malajr.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">Appoġġ</a> · <a href="privacidad.html">Privatezza</a></footer>
+</template>
+<template lang="zh-Hans">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>支持</h1>
+  <p>遇到问题？请发邮件至 <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a>，我们会尽快回复。</p>
+</header>
+<main>
+<section>
+  <h2>常见问题</h2>
+
+  <h3>怎么玩？</h3>
+  <p>两支队伍，一部手机。最多选择 4 个卡组，抽出 50 张纸条。每回合 60 秒，一名玩家在队友看不到的情况下看手机，让队友猜词。共三轮，词语相同：第 1 轮自由描述，第 2 轮只能说一个词，第 3 轮只能做动作。猜对最多的队伍获胜；如果平局，可以进行突然死亡加赛。</p>
+
+  <h3>我购买了“全部解锁”，但在新手机上没有显示</h3>
+  <p>购买记录在你的 Apple 账户中，而不是手机上。请确认使用的是同一个 Apple 账户，打开卡组商店并点按<strong>“恢复购买”</strong>。如果仍然没有显示，请联系我们。</p>
+
+  <h3>我看了广告来解锁卡组，但没有解锁</h3>
+  <p>每个卡组需要<strong>完整观看 2 个广告</strong>。如果在广告结束前关闭，则不计数。进度（1/2）会被保存，即使你退出应用。</p>
+
+  <h3>没有出现用于解锁的广告</h3>
+  <p>广告需要联网，有时当下没有可用的广告。请几秒后再试或换一个网络。你也可以用金币解锁卡组：每完成一局获得 20 金币。</p>
+
+  <h3>游戏进行中应用关闭了</h3>
+  <p>请在 <strong>5 分钟</strong>内重新打开，主屏幕上会显示“你有一局未完成的游戏”。点按“继续游戏”，即可从刚才的位置继续，当前回合处于暂停状态。超过 5 分钟游戏将丢失。</p>
+
+  <h3>如何更改个性化广告偏好？</h3>
+  <p>在卡组商店中点按<strong>“广告隐私”</strong>。跟踪权限可在<em>设置 &gt; 隐私与安全性 &gt; 跟踪</em>中更改。</p>
+
+  <h3>可以申请退款吗？</h3>
+  <p>App Store 的退款由 Apple 处理。你可以在 <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> 申请。</p>
+
+  <h3>我发现了重复、拼写错误或不合适的词</h3>
+  <p>谢谢！请把该词和所在卡组发给我们，我们会在下个版本中修正。</p>
+</section>
+
+<section>
+  <h2>联系方式</h2>
+  <p>邮箱：<a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  请告诉我们你的 iPhone 或 iPad 型号以及 iOS 版本（<em>设置 &gt; 通用 &gt; 关于本机</em>），以便我们更快解决问题。</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">支持</a> · <a href="privacidad.html">隐私</a></footer>
+</template>
+<template lang="hi">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>सहायता</h1>
+  <p>कुछ ठीक से नहीं चल रहा? हमें <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> पर लिखें, हम जल्द से जल्द जवाब देंगे।</p>
+</header>
+<main>
+<section>
+  <h2>अक्सर पूछे जाने वाले सवाल</h2>
+
+  <h3>कैसे खेलते हैं?</h3>
+  <p>दो टीमें और एक फ़ोन। ज़्यादा से ज़्यादा 4 डेक चुने जाते हैं और 50 पर्चियाँ निकलती हैं। 60 सेकंड की बारी में एक खिलाड़ी अपनी टीम से छिपाकर फ़ोन देखता है और उनसे अंदाज़ा लगवाता है। एक जैसे शब्दों के साथ तीन राउंड होते हैं: पहले में खुलकर समझाते हैं, दूसरे में सिर्फ़ एक शब्द बोल सकते हैं और तीसरे में सिर्फ़ इशारे। सबसे ज़्यादा सही बताने वाली टीम जीतती है; बराबरी होने पर सडन डेथ खेल सकते हैं।</p>
+
+  <h3>मैंने "सब अनलॉक करें" ख़रीदा, पर नए फ़ोन में नहीं दिख रहा</h3>
+  <p>ख़रीदारी आपके Apple खाते में है, फ़ोन में नहीं। पक्का करें कि आप वही Apple खाता इस्तेमाल कर रहे हैं, डेक स्टोर खोलें और <strong>"ख़रीदारी बहाल करें"</strong> पर टैप करें। फिर भी न दिखे तो हमें लिखें।</p>
+
+  <h3>मैंने डेक अनलॉक करने के लिए विज्ञापन देखा, पर अनलॉक नहीं हुआ</h3>
+  <p>हर डेक के लिए <strong>2 विज्ञापन पूरे देखने</strong> होते हैं। विज्ञापन ख़त्म होने से पहले बंद करने पर वह नहीं गिना जाता। प्रगति (1/2) ऐप से बाहर जाने पर भी सेव रहती है।</p>
+
+  <h3>अनलॉक करने के लिए विज्ञापन नहीं दिख रहे</h3>
+  <p>विज्ञापनों के लिए इंटरनेट चाहिए और कभी-कभी उस समय कोई विज्ञापन उपलब्ध नहीं होता। कुछ सेकंड बाद या दूसरे नेटवर्क पर फिर कोशिश करें। आप सिक्कों से भी डेक अनलॉक कर सकते हैं: हर पूरा खेल 20 सिक्के देता है।</p>
+
+  <h3>खेल के बीच में ऐप बंद हो गया</h3>
+  <p><strong>5 मिनट</strong> के अंदर ऐप फिर से खोलें, होम स्क्रीन पर "आपका एक अधूरा खेल है" दिखेगा। "खेल जारी रखें" पर टैप करें और आप ठीक वहीं से शुरू करेंगे जहाँ थे, बारी रुकी हुई होगी। 5 मिनट के बाद खेल ख़त्म हो जाता है।</p>
+
+  <h3>व्यक्तिगत विज्ञापनों की पसंद कैसे बदलूँ?</h3>
+  <p>डेक स्टोर में <strong>"विज्ञापन गोपनीयता"</strong> पर टैप करें। ट्रैकिंग की अनुमति <em>सेटिंग्ज़ &gt; गोपनीयता और सुरक्षा &gt; ट्रैकिंग</em> में बदल सकते हैं।</p>
+
+  <h3>क्या मुझे पैसे वापस मिल सकते हैं?</h3>
+  <p>App Store के रिफ़ंड Apple संभालता है। आप <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> पर अनुरोध कर सकते हैं।</p>
+
+  <h3>मुझे कोई दोहराया हुआ, ग़लत लिखा या बेमेल शब्द मिला</h3>
+  <p>धन्यवाद! हमें शब्द और डेक का नाम लिखें, हम अगले संस्करण में ठीक कर देंगे।</p>
+</section>
+
+<section>
+  <h2>संपर्क</h2>
+  <p>ईमेल: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  अपने iPhone या iPad का मॉडल और iOS संस्करण (<em>सेटिंग्ज़ &gt; सामान्य &gt; परिचय</em>) बताएँ, ताकि हम जल्दी ठीक कर सकें।</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">सहायता</a> · <a href="privacidad.html">गोपनीयता</a></footer>
+</template>
+<template lang="ar">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>الدعم</h1>
+  <p>هل هناك مشكلة؟ راسلنا على <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a> وسنرد عليك في أسرع وقت.</p>
+</header>
+<main>
+<section>
+  <h2>الأسئلة الشائعة</h2>
+
+  <h3>كيف تُلعب؟</h3>
+  <p>فريقان وهاتف واحد. تُختار حتى 4 مجموعات وتُسحب 50 ورقة. في أدوار مدتها 60 ثانية، ينظر لاعب إلى الهاتف دون أن يراه فريقه ويجعلهم يخمّنون. هناك ثلاث جولات بالكلمات نفسها: في الأولى يكون الوصف حرًا، وفي الثانية يُسمح بكلمة واحدة فقط، وفي الثالثة تمثيل صامت فقط. يفوز الفريق صاحب أكبر عدد من الإجابات الصحيحة؛ وفي حال التعادل يمكن لعب جولة موت مفاجئ.</p>
+
+  <h3>اشتريت "فتح الكل" ولا يظهر على هاتفي الجديد</h3>
+  <p>الشراء مرتبط بحساب Apple الخاص بك، لا بالهاتف. تأكد من استخدام حساب Apple نفسه، وافتح متجر المجموعات واضغط <strong>"استعادة الشراء"</strong>. إذا لم يظهر بعد ذلك، راسلنا.</p>
+
+  <h3>شاهدت إعلانًا لفتح مجموعة ولم تُفتح</h3>
+  <p>تحتاج كل مجموعة إلى <strong>مشاهدة إعلانين كاملين</strong>. إذا أغلقت الإعلان قبل نهايته فلا يُحتسب. ويبقى التقدم (1/2) محفوظًا حتى لو خرجت من التطبيق.</p>
+
+  <h3>لا تظهر إعلانات للفتح</h3>
+  <p>تحتاج الإعلانات إلى اتصال بالإنترنت، وأحيانًا لا يتوفر أي إعلان في تلك اللحظة. حاول مجددًا بعد ثوانٍ أو على شبكة أخرى. يمكنك أيضًا فتح المجموعات بالعملات: كل لعبة مكتملة تمنحك 20.</p>
+
+  <h3>أُغلق التطبيق في منتصف اللعبة</h3>
+  <p>افتحه مجددًا خلال <strong>5 دقائق</strong> وسترى في الشاشة الرئيسية "لديك لعبة غير مكتملة". اضغط "متابعة اللعبة" وستكمل من حيث توقفت تمامًا، مع إيقاف الدور مؤقتًا. بعد 5 دقائق تضيع اللعبة.</p>
+
+  <h3>كيف أغيّر تفضيلات الإعلانات المخصّصة؟</h3>
+  <p>في متجر المجموعات، اضغط <strong>"خصوصية الإعلانات"</strong>. ويمكن تغيير إذن التتبع من <em>الإعدادات &gt; الخصوصية والأمن &gt; التتبع</em>.</p>
+
+  <h3>هل يمكنني استرداد المبلغ؟</h3>
+  <p>تتولى Apple عمليات الاسترداد في App Store. يمكنك طلبه عبر <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+  <h3>وجدت كلمة مكررة أو مكتوبة خطأ أو غير مناسبة</h3>
+  <p>شكرًا لك! راسلنا بالكلمة واسم المجموعة وسنصححها في الإصدار التالي.</p>
+</section>
+
+<section>
+  <h2>التواصل</h2>
+  <p>البريد الإلكتروني: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  أخبرنا بطراز iPhone أو iPad وإصدار iOS (<em>الإعدادات &gt; عام &gt; حول</em>) لنحل المشكلة أسرع.</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">الدعم</a> · <a href="privacidad.html">الخصوصية</a></footer>
+</template>
+<template lang="bn">
+<header class="hero">
+  <a class="logo" href="index.html">Guesslip</a>
+  <h1>সহায়তা</h1>
+  <p>কিছু ঠিকমতো চলছে না? আমাদের <a class="light" href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a>-এ লেখো, আমরা যত দ্রুত সম্ভব উত্তর দেব।</p>
+</header>
+<main>
+<section>
+  <h2>প্রায়ই জিজ্ঞাসিত প্রশ্ন</h2>
+
+  <h3>কীভাবে খেলতে হয়?</h3>
+  <p>দুটি দল আর একটি ফোন। সর্বোচ্চ ৪টি ডেক বেছে ৫০টি কাগজ তোলা হয়। ৬০ সেকেন্ডের পালায় একজন খেলোয়াড় দলের অগোচরে ফোন দেখে তাদের দিয়ে অনুমান করায়। একই শব্দ দিয়ে তিনটি রাউন্ড: প্রথমটিতে খোলামেলা বোঝাও, দ্বিতীয়টিতে শুধু একটি শব্দ বলা যায়, আর তৃতীয়টিতে শুধু অভিনয়। সবচেয়ে বেশি ঠিক বলা দল জেতে; ড্র হলে সাডেন ডেথ খেলা যায়।</p>
+
+  <h3>"সব আনলক করো" কিনেছি, কিন্তু নতুন ফোনে দেখাচ্ছে না</h3>
+  <p>কেনাকাটাটি তোমার Apple অ্যাকাউন্টে আছে, ফোনে নয়। একই Apple অ্যাকাউন্ট ব্যবহার করছ কি না দেখে নাও, ডেক দোকান খোলো আর <strong>"কেনাকাটা পুনরুদ্ধার করো"</strong>-তে ট্যাপ করো। তারপরও না দেখালে আমাদের লেখো।</p>
+
+  <h3>ডেক আনলক করতে বিজ্ঞাপন দেখেছি, কিন্তু আনলক হয়নি</h3>
+  <p>প্রতিটি ডেকের জন্য <strong>২টি বিজ্ঞাপন পুরো দেখতে</strong> হয়। শেষ হওয়ার আগে বিজ্ঞাপন বন্ধ করলে তা গোনা হয় না। অ্যাপ থেকে বেরিয়ে গেলেও অগ্রগতি (১/২) সংরক্ষিত থাকে।</p>
+
+  <h3>আনলক করার জন্য বিজ্ঞাপন আসছে না</h3>
+  <p>বিজ্ঞাপনের জন্য ইন্টারনেট লাগে, আর মাঝে মাঝে ঠিক সেই মুহূর্তে কোনো বিজ্ঞাপন থাকে না। কয়েক সেকেন্ড পর বা অন্য নেটওয়ার্কে আবার চেষ্টা করো। কয়েন দিয়েও ডেক আনলক করতে পারো: প্রতিটি শেষ হওয়া খেলায় ২০ কয়েন।</p>
+
+  <h3>খেলার মাঝখানে অ্যাপ বন্ধ হয়ে গেছে</h3>
+  <p><strong>৫ মিনিটের</strong> মধ্যে আবার খোলো, হোম স্ক্রিনে দেখবে "তোমার একটি অসমাপ্ত খেলা আছে"। "খেলা চালিয়ে যাও"-তে ট্যাপ করলে ঠিক যেখানে ছিলে সেখান থেকেই চলবে, পালাটি বিরতিতে থাকবে। ৫ মিনিট পার হলে খেলাটি হারিয়ে যায়।</p>
+
+  <h3>ব্যক্তিগতকৃত বিজ্ঞাপনের পছন্দ কীভাবে বদলাব?</h3>
+  <p>ডেক দোকানে <strong>"বিজ্ঞাপনের গোপনীয়তা"</strong>-তে ট্যাপ করো। ট্র্যাকিংয়ের অনুমতি <em>সেটিংস &gt; গোপনীয়তা ও নিরাপত্তা &gt; ট্র্যাকিং</em> থেকে বদলাতে পারো।</p>
+
+  <h3>টাকা ফেরত পাওয়া যাবে?</h3>
+  <p>App Store-এর রিফান্ড Apple পরিচালনা করে। তুমি <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>-এ অনুরোধ করতে পারো।</p>
+
+  <h3>পুনরাবৃত্ত, ভুল বানান বা বেমানান কোনো শব্দ পেয়েছি</h3>
+  <p>ধন্যবাদ! শব্দটি আর ডেকের নাম লিখে পাঠাও, পরের সংস্করণে আমরা ঠিক করে দেব।</p>
+</section>
+
+<section>
+  <h2>যোগাযোগ</h2>
+  <p>ইমেইল: <a href="mailto:cgarrui0301@gmail.com">cgarrui0301@gmail.com</a><br>
+  তোমার iPhone বা iPad-এর মডেল আর iOS সংস্করণ (<em>সেটিংস &gt; সাধারণ &gt; সম্পর্কে</em>) জানাও, তাহলে দ্রুত সমাধান করতে পারব।</p>
+</section>
+</main>
+<footer><a href="index.html">Guesslip</a> · <a href="soporte.html">সহায়তা</a> · <a href="privacidad.html">গোপনীয়তা</a></footer>
+</template>
 </body>
 </html>
